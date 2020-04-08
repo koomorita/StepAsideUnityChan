@@ -24,6 +24,8 @@ GameObject:
   - component: {fileID: 65342799729338360}
   - component: {fileID: 114772984610587644}
   - component: {fileID: 82816652643639114}
+  - component: {fileID: 114440352398714310}
+  - component: {fileID: 114398594096781552}
   m_Layer: 0
   m_Name: TrafficConePrefab
   m_TagString: TrafficConeTag
@@ -177,6 +179,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114398594096781552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1154780315052886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8793d29b55637aa4e91f33298a74667c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114440352398714310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1154780315052886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8793d29b55637aa4e91f33298a74667c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114772984610587644
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -188,4 +212,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8793d29b55637aa4e91f33298a74667c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound1: {fileID: 8300000, guid: 6ccbc3d284bd849d49fb1f8f94ab2888, type: 3}

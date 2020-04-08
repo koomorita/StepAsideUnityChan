@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 65771283523654680}
   - component: {fileID: 114811922371801868}
   - component: {fileID: 82578571713025394}
+  - component: {fileID: 114889612703957090}
   m_Layer: 0
   m_Name: CarPrefab
   m_TagString: CarTag
@@ -476,4 +477,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8793d29b55637aa4e91f33298a74667c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound1: {fileID: 8300000, guid: d42eccd24e0ee4aef80df9398ec0747c, type: 3}
+--- !u!114 &114889612703957090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301559355166064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8793d29b55637aa4e91f33298a74667c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -2,23 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeleteObject : MonoBehaviour {
+public class DeleteObject : MonoBehaviour
+{
 
-        
+
+    private GameObject unitychan;
+
+
     // Use this for initialization
-    void Start () {
-    
-    }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    void OnBecameInvisible()
+    void Start()
     {
-        //画面外の障害物を消去する。
-        GameObject.Destroy(this.gameObject);
-
+        this.unitychan = GameObject.Find("unitychan");
+               
+       // var anotherTransform1 = GameObject.Find("unitychan").transform;
     }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(this.unitychan.transform.position.z -10 > this.transform.position.z)
+        {
+            Destroy(this.gameObject);
+        }
+        //this.unitychan.transform.position.z
+
+        //this.transform.position.z
+    }
+    
 }
